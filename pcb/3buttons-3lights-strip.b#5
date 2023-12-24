@@ -205,10 +205,9 @@
 <text x="10.16" y="10.795" size="1.27" layer="21" rot="R180">LADDER</text>
 <text x="10.16" y="8.255" size="1.27" layer="21" rot="R180">ANALOG</text>
 <text x="60.325" y="24.13" size="1.778" layer="21" rot="R180">ARDUINO THAT WAY</text>
-<wire x1="66.04" y1="23.495" x2="65.405" y2="23.495" width="0.254" layer="21"/>
-<wire x1="66.04" y1="23.495" x2="64.77" y2="24.765" width="0.6096" layer="21"/>
-<wire x1="66.04" y1="23.495" x2="64.77" y2="22.225" width="0.6096" layer="21"/>
-<wire x1="65.405" y1="23.495" x2="60.96" y2="23.495" width="0.6096" layer="21"/>
+<wire x1="69.215" y1="23.495" x2="67.945" y2="24.765" width="0.6096" layer="21"/>
+<wire x1="69.215" y1="23.495" x2="67.945" y2="22.225" width="0.6096" layer="21"/>
+<wire x1="69.215" y1="23.495" x2="60.96" y2="23.495" width="0.6096" layer="21"/>
 <text x="21.59" y="24.13" size="1.27" layer="21" rot="R180">TOP JUMPER</text>
 <text x="73.025" y="22.86" size="1.27" layer="21" rot="R180">1 uF</text>
 <text x="65.405" y="15.24" size="1.27" layer="21" rot="R180">10 k</text>

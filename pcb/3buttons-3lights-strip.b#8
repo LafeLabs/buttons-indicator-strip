@@ -195,9 +195,9 @@
 <wire x1="76.2" y1="0" x2="76.2" y2="25.4" width="0" layer="20"/>
 <text x="58.42" y="2.54" size="1.778" layer="21" rot="R180">BUTTON INDICATOR BOARD V1</text>
 <text x="75.565" y="20.955" size="1.27" layer="21" rot="R180">GND</text>
-<text x="73.66" y="15.875" size="1.27" layer="21" rot="R180">DIN</text>
-<text x="73.66" y="13.335" size="1.27" layer="21" rot="R180">5 VDC</text>
-<text x="73.66" y="10.795" size="1.27" layer="21" rot="R180">LADDER</text>
+<text x="73.025" y="15.875" size="1.27" layer="21" rot="R180">DIN</text>
+<text x="73.025" y="13.335" size="1.27" layer="21" rot="R180">5 VDC</text>
+<text x="73.025" y="10.795" size="1.27" layer="21" rot="R180">LADDER</text>
 <text x="73.66" y="8.255" size="1.27" layer="21" rot="R180">ANALOG</text>
 <text x="6.35" y="18.415" size="1.27" layer="21" rot="R180">GND</text>
 <text x="8.255" y="15.875" size="1.27" layer="21" rot="R180">DOUT</text>

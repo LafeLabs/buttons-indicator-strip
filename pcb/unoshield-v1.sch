@@ -6532,6 +6532,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF" device="-0805-10V-10%" value="10uF"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J1" library="MJ-3536N" deviceset="MJ-3536N" device=""/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6612,6 +6614,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="245.11766875" y="76.70211875" size="1.779790625" layer="95" rot="R180"/>
 <attribute name="VALUE" x="245.11695" y="90.17695" size="1.77961875" layer="96" rot="R180"/>
 </instance>
+<instance part="R1" gate="G$1" x="111.76" y="121.92" smashed="yes" rot="R270">
+<attribute name="NAME" x="113.2586" y="125.73" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="108.458" y="125.73" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND4" gate="1" x="111.76" y="114.3" smashed="yes">
+<attribute name="VALUE" x="109.22" y="111.76" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6670,6 +6679,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="CL" class="0">
@@ -6832,11 +6845,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="ANALOG" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="133.35" y1="127" x2="77.47" y2="127" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="127" x2="111.76" y2="127" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="127" x2="77.47" y2="127" width="0.1524" layer="91"/>
 <wire x1="77.47" y1="127" x2="77.47" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="A0"/>
 <wire x1="77.47" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="96.52" y="127" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<junction x="111.76" y="127"/>
 </segment>
 </net>
 <net name="N$17" class="0">

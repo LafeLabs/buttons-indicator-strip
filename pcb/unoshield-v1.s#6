@@ -7512,6 +7512,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="158.75" y1="101.6" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="133.35" y1="121.92" x2="125.73" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="133.35" y1="124.46" x2="125.73" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="133.35" y1="127" x2="125.73" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="4"/>
+<wire x1="133.35" y1="119.38" x2="125.73" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="5"/>
+<wire x1="133.35" y1="116.84" x2="125.73" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

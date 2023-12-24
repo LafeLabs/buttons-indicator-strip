@@ -6677,12 +6677,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="BUTTON" class="0">
 <segment>
-<wire x1="67.31" y1="110.49" x2="67.31" y2="156.21" width="0.1524" layer="91"/>
+<wire x1="67.31" y1="109.22" x2="67.31" y2="156.21" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="156.21" x2="67.31" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="G$1" pin="P$1"/>
 <pinref part="SW3" gate="G$1" pin="RIGHTWIRE"/>
 <wire x1="74.93" y1="156.21" x2="67.31" y2="156.21" width="0.1524" layer="91"/>
 <junction x="67.31" y="156.21"/>
+<pinref part="J4" gate="G$1" pin="A1"/>
+<wire x1="67.31" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -6702,7 +6704,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="59.69" y1="107.95" x2="59.69" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="106.68" x2="59.69" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="59.69" y1="132.08" x2="59.69" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="59.69" y1="129.54" x2="59.69" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="P$1"/>
@@ -6710,8 +6712,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="59.69" y="129.54"/>
 <pinref part="SW3" gate="G$1" pin="LEFTWIRE"/>
 <pinref part="J4" gate="G$1" pin="A2"/>
-<wire x1="81.28" y1="106.68" x2="81.28" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="107.95" x2="59.69" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="106.68" x2="59.69" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">

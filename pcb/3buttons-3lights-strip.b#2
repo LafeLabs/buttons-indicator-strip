@@ -209,14 +209,14 @@
 <wire x1="69.215" y1="23.495" x2="67.945" y2="22.225" width="0.6096" layer="21"/>
 <wire x1="69.215" y1="23.495" x2="60.96" y2="23.495" width="0.6096" layer="21"/>
 <text x="21.59" y="24.13" size="1.27" layer="21" rot="R180">TOP JUMPER</text>
-<text x="73.025" y="22.86" size="1.27" layer="21" rot="R180">1 uF</text>
+<text x="73.025" y="22.225" size="1.27" layer="21" rot="R180">10 uF</text>
 <text x="65.405" y="15.24" size="1.27" layer="21" rot="R180">10 k</text>
 <text x="40.005" y="11.43" size="1.016" layer="21" rot="R180">10 k</text>
 <text x="15.24" y="11.43" size="1.016" layer="21" rot="R180">10 k</text>
 <text x="28.575" y="7.62" size="1.27" layer="21" rot="R180">#4 clearance</text>
 <text x="55.88" y="7.62" size="1.27" layer="21" rot="R180">#4 clearance</text>
-<text x="47.625" y="17.78" size="1.27" layer="21" rot="R180">1 uF</text>
-<text x="22.225" y="17.78" size="1.27" layer="21" rot="R180">1 uF</text>
+<text x="47.625" y="17.78" size="1.27" layer="21" rot="R180">10 uF</text>
+<text x="22.225" y="17.78" size="1.27" layer="21" rot="R180">10 uF</text>
 <text x="60.96" y="16.51" size="1.27" layer="21" rot="R180">WS2811</text>
 <text x="40.64" y="15.875" size="1.016" layer="21" rot="R180">WS2811</text>
 <text x="15.24" y="15.875" size="1.016" layer="21" rot="R180">WS2811</text>

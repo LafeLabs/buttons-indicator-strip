@@ -5163,6 +5163,54 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <rectangle x1="9.56" y1="0.54" x2="10.76" y2="2.74" layer="31" rot="R180"/>
 <smd name="2" x="2.54" y="1.65" dx="2" dy="1" layer="1" rot="R90" stop="no"/>
 </package>
+<package name="AUDIO_JACK_0.25&quot;_TRS_PTH_RA">
+<description>&lt;h3&gt;Right Angle -1/4" Stereo Jack&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 6&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://cdn.sparkfun.com/datasheets/Components/General/JP-611%20DD.jpg”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;AUDIO_JACK_TRS_0.25"_PTH_RA&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="0" y1="6.23" x2="0" y2="-8.77" width="0.127" layer="21"/>
+<wire x1="0" y1="-8.77" x2="21" y2="-8.77" width="0.2032" layer="21"/>
+<wire x1="21" y1="-8.77" x2="21" y2="-3.97" width="0.2032" layer="21"/>
+<wire x1="21" y1="-3.97" x2="21" y2="4.03" width="0.2032" layer="21"/>
+<wire x1="21" y1="4.03" x2="21" y2="6.23" width="0.2032" layer="21"/>
+<wire x1="21" y1="6.23" x2="0" y2="6.23" width="0.2032" layer="21"/>
+<wire x1="0.095" y1="0.03" x2="24" y2="0.03" width="0.2032" layer="21"/>
+<wire x1="24" y1="0.03" x2="24" y2="3.03" width="0.2032" layer="21"/>
+<wire x1="24" y1="0.03" x2="24" y2="-2.97" width="0.2032" layer="21"/>
+<wire x1="-9" y1="5.53" x2="0" y2="5.53" width="0.127" layer="51"/>
+<wire x1="0" y1="5.53" x2="0" y2="-5.47" width="0.127" layer="51"/>
+<wire x1="0" y1="-5.47" x2="-9" y2="-5.47" width="0.127" layer="51"/>
+<wire x1="-9" y1="-5.47" x2="-9" y2="0.03" width="0.127" layer="51"/>
+<wire x1="-9" y1="0.03" x2="-9" y2="5.53" width="0.127" layer="51"/>
+<wire x1="-8" y1="4.53" x2="-7" y2="-4.47" width="0.127" layer="51"/>
+<wire x1="-7" y1="4.53" x2="-6" y2="-4.47" width="0.127" layer="51"/>
+<wire x1="-6" y1="4.53" x2="-5" y2="-4.47" width="0.127" layer="51"/>
+<wire x1="-5" y1="4.53" x2="-4" y2="-4.47" width="0.127" layer="51"/>
+<wire x1="-4" y1="4.53" x2="-3" y2="-4.47" width="0.127" layer="51"/>
+<wire x1="-3" y1="4.53" x2="-2" y2="-4.47" width="0.127" layer="51"/>
+<wire x1="-2" y1="4.53" x2="-1" y2="-4.47" width="0.127" layer="51"/>
+<wire x1="24" y1="3.03" x2="21" y2="4.03" width="0.2032" layer="21"/>
+<wire x1="24" y1="-2.97" x2="21" y2="-3.97" width="0.2032" layer="21"/>
+<wire x1="-9" y1="0.03" x2="-8.1" y2="0.03" width="0.127" layer="51"/>
+<wire x1="-6" y1="8.75" x2="0" y2="8.75" width="0.127" layer="51"/>
+<wire x1="-6" y1="-8.75" x2="0" y2="-8.75" width="0.127" layer="51"/>
+<wire x1="-6" y1="8.75" x2="-6" y2="-8.75" width="0.127" layer="51"/>
+<wire x1="0" y1="8.75" x2="0" y2="-8.75" width="0.127" layer="51"/>
+<pad name="RING" x="10.5" y="-6.95" drill="1.6"/>
+<pad name="RING-NORM" x="10.5" y="4.35" drill="1.6"/>
+<pad name="SLEEVE" x="4.2" y="-6.95" drill="1.6"/>
+<pad name="SLEEVE-NORM" x="4.2" y="4.35" drill="1.6"/>
+<pad name="TIP" x="16.8" y="-6.95" drill="1.6"/>
+<pad name="TIP-NORM" x="16.8" y="4.35" drill="1.6"/>
+<hole x="7.4" y="4" drill="2.2"/>
+<hole x="7.4" y="-6.6" drill="2.2"/>
+<text x="7.62" y="-1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="7.62" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="M04">
@@ -5228,6 +5276,43 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="5" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="AUDIO-JACK4-TRS-NORMALED-GND-1">
+<description>&lt;h3&gt; Audio Jack &lt;/h3&gt;
+&lt;p&gt; 1/4" TRS Jack - with normals on each conductor&lt;/p&gt;</description>
+<rectangle x1="-6.35" y1="-5.08" x2="-5.08" y2="7.62" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.048" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="1.27" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.048" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-3.81" x2="2.032" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-3.81" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.032" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="6.35" x2="3.048" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="6.35" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<pin name="EARTH" x="5.08" y="7.62" visible="off" length="short" rot="R180"/>
+<pin name="EARTH-NORM" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
+<pin name="RING" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="RING-NORM" x="5.08" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="TIP" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+<pin name="TIP-NORM" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-5.08" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="94" align="bottom-center">T</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="94" align="bottom-center">R</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5889,6 +5974,47 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </device>
 </devices>
 </deviceset>
+<deviceset name="AUDIO_JACK_TRS_0.25&quot;_PTH_RA" prefix="J">
+<description>&lt;h3&gt;Audio Jack, 1/4" TRS jack, horizontal, PTH, aka "Phono jack"&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;b&gt;Find the connector here:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11144"&gt; Audio Jack - 1/4" Stereo (right angle)&lt;/a&gt; (COM-11144)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/General/JP-611%20DD.jpg"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Note, although the datasheet and physical part are slightly different, this footprint was proven to mate well on the Proto Pedal.&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;b&gt;This device is used on these SparkFun Products: &lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13005"&gt;SparkFun TRS Jack Breakout - 1/4" Stereo&lt;/a&gt; (BOB-13005 )&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13124"&gt; SparkFun Proto Pedal - sorry bad link - product comming soon!&lt;/a&gt; (PRT-13124)&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="AUDIO-JACK4-TRS-NORMALED-GND-1" x="0" y="-1.27"/>
+</gates>
+<devices>
+<device name="" package="AUDIO_JACK_0.25&quot;_TRS_PTH_RA">
+<connects>
+<connect gate="G$1" pin="EARTH" pad="SLEEVE"/>
+<connect gate="G$1" pin="EARTH-NORM" pad="SLEEVE-NORM"/>
+<connect gate="G$1" pin="RING" pad="RING"/>
+<connect gate="G$1" pin="RING-NORM" pad="RING-NORM"/>
+<connect gate="G$1" pin="TIP" pad="TIP"/>
+<connect gate="G$1" pin="TIP-NORM" pad="TIP-NORM"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-12339" constant="no"/>
+<attribute name="SF_ID" value="COM-11144" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Capacitors">
@@ -6273,6 +6399,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_05" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="J6" library="SparkFun-Connectors" deviceset="AUDIO_JACK_TRS_0.25&quot;_PTH_RA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6345,6 +6472,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="GND2" gate="1" x="125.73" y="114.3" smashed="yes">
 <attribute name="VALUE" x="123.19" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="J6" gate="G$1" x="220.98" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="226.06" y="78.232" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="226.06" y="93.98" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>

@@ -6143,11 +6143,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="spietz-library">
 <packages>
-<package name="BUTTON">
-<pad name="P$1" x="-2.499359375" y="0" drill="1.1" diameter="1.9304"/>
-<pad name="P$2" x="2.499359375" y="0" drill="1.1" diameter="1.9304"/>
-<circle x="0" y="0" radius="3.175" width="0.127" layer="21"/>
-</package>
 <package name="360-1013-ND">
 <pad name="CENTER" x="0" y="0" drill="0.6"/>
 <pad name="LEFT" x="-2.54" y="0" drill="0.6"/>
@@ -6159,16 +6154,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="BUTTON1">
-<wire x1="-7.62" y1="0" x2="-7.62" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="3.175" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="3.81" x2="-6.35" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="3.81" x2="-3.81" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="3.81" x2="-6.35" y2="5.715" width="0.254" layer="94"/>
-<pin name="P$1" x="-12.7" y="0" length="middle"/>
-<pin name="P$2" x="0" y="0" length="middle" rot="R180"/>
-<circle x="-6.35" y="6.985" radius="1.27" width="0.254" layer="94"/>
-</symbol>
 <symbol name="ON-OFF-ON-SWITCH">
 <circle x="0" y="0" radius="1.79605" width="0.1524" layer="94"/>
 <circle x="16.51" y="0" radius="1.79605" width="0.1524" layer="94"/>
@@ -6183,22 +6168,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BUTTON">
-<gates>
-<gate name="G$1" symbol="BUTTON1" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="BUTTON">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ON-OFF-ON-360-1013-ND">
 <gates>
 <gate name="G$1" symbol="ON-OFF-ON-SWITCH" x="-7.62" y="0"/>
@@ -6553,10 +6522,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R5" library="SparkFun-Electromechanical" deviceset="POT" device="ALPS-KIT" value="20k"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SW2" library="spietz-library" deviceset="BUTTON" device=""/>
-<part name="SW1" library="spietz-library" deviceset="BUTTON" device=""/>
-<part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SW3" library="spietz-library" deviceset="ON-OFF-ON-360-1013-ND" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_10" device="&quot;"/>
@@ -6613,14 +6578,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="GND5" gate="1" x="154.94" y="73.66" smashed="yes">
 <attribute name="VALUE" x="152.4" y="71.12" size="1.778" layer="96"/>
-</instance>
-<instance part="SW2" gate="G$1" x="67.31" y="177.8" smashed="yes" rot="R90"/>
-<instance part="SW1" gate="G$1" x="59.69" y="162.56" smashed="yes" rot="R90"/>
-<instance part="GND6" gate="1" x="74.93" y="175.26" smashed="yes">
-<attribute name="VALUE" x="72.39" y="172.72" size="1.778" layer="96"/>
-</instance>
-<instance part="GND8" gate="1" x="62.23" y="160.02" smashed="yes">
-<attribute name="VALUE" x="59.69" y="157.48" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="90.17" y="139.7" smashed="yes">
 <attribute name="VALUE" x="87.63" y="137.16" size="1.778" layer="96"/>
@@ -6688,20 +6645,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="44.45" y1="97.79" x2="44.45" y2="102.87" width="0.1524" layer="91"/>
 <wire x1="44.45" y1="102.87" x2="58.42" y2="102.87" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="102.87" x2="58.42" y2="97.79" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SW1" gate="G$1" pin="P$2"/>
-<wire x1="59.69" y1="162.56" x2="59.69" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="59.69" y1="165.1" x2="62.23" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="165.1" x2="62.23" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SW2" gate="G$1" pin="P$2"/>
-<wire x1="67.31" y1="177.8" x2="67.31" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="67.31" y1="182.88" x2="74.93" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="74.93" y1="182.88" x2="74.93" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -6778,11 +6721,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="BUTTON" class="0">
 <segment>
 <wire x1="67.31" y1="109.22" x2="67.31" y2="156.21" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="156.21" x2="67.31" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="G$1" pin="P$1"/>
 <pinref part="SW3" gate="G$1" pin="RIGHTWIRE"/>
 <wire x1="74.93" y1="156.21" x2="67.31" y2="156.21" width="0.1524" layer="91"/>
-<junction x="67.31" y="156.21"/>
 <pinref part="J4" gate="G$1" pin="A1"/>
 <wire x1="67.31" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -6798,11 +6738,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$12" class="0">
 <segment>
 <wire x1="59.69" y1="106.68" x2="59.69" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="59.69" y1="132.08" x2="59.69" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="59.69" y1="129.54" x2="59.69" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="P$1"/>
 <wire x1="59.69" y1="129.54" x2="74.93" y2="129.54" width="0.1524" layer="91"/>
-<junction x="59.69" y="129.54"/>
 <pinref part="SW3" gate="G$1" pin="LEFTWIRE"/>
 <pinref part="J4" gate="G$1" pin="A2"/>
 <wire x1="81.28" y1="106.68" x2="59.69" y2="106.68" width="0.1524" layer="91"/>
